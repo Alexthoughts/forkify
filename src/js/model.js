@@ -16,6 +16,10 @@ export const state = {
   bookmarks: [],
 };
 
+const newFeature = function () {
+  console.log('welcome to the app');
+};
+
 const createRecipeObject = function (data) {
   const { recipe } = data.data;
   return {
